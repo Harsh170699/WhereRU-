@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edtphone"
+        android:layout_marginTop="100dp"
+        android:hint="Enter a Phone Number"
+        android:textSize="22sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make a Call"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btncall"
+        android:textSize="22sp"/>
+</LinearLayout>

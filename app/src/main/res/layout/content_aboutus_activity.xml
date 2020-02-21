@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/content_aboutus_activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="389dp"
+        android:text="      Before some social networking sites came into existance we didn't have much social anxiety of ongoing things and people around us. Similarly, ouor application aims at sharing your real timr ocation with the ones you want. Thus, this concept of sharing locations online and offline is targeted to help people meet in real life.
+        Not only that, but there are many more functional possibilities with this location sharing app, like finding someone, or just getting known to the people around you, or this can even be used at commercial level by some enterprises and even at times of emergencies.
+        Thus, we like to call our app, WHERE R U , in which U is more than just YOU, but anything and anyone"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="51dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/login"
+        android:textColor="@color/colorPrimary"/>
+
+
+
+</android.support.constraint.ConstraintLayout>
+

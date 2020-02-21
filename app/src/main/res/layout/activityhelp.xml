@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@drawable/login"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="290dp"
+        android:layout_height="389dp"
+        android:text="Feel Free to contact in case of any queries, problems or even your constructive feedback is highly appreciated!
+
+    Contact Us At: help@whereru.com"
+        android:textColor="#000000"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="18dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+
+
+</LinearLayout>
+

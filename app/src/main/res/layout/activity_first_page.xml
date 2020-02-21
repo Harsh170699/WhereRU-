@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    tools:context="com.example.whereru.FirstPage"
+    android:background="@drawable/login"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/img"
+        android:src="@drawable/logo"
+        />
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#0000ff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"></View>
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="0dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/lldata"
+            android:layout_weight="95">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="LOG IN"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:onClick="login"
+                android:id="@+id/btnlogin"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_marginTop="30dp"
+                android:textSize="22sp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:shadowColor="#000000"
+                android:onClick="signup"
+                android:id="@+id/btnsignup"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

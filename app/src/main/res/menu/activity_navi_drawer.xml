@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <!--<item
+            android:id="@+id/nav_talks"
+            android:icon="@drawable/ic_action_name"
+            android:title="Your talks" />-->
+        <item
+            android:id="@+id/nav_circles"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Your chats" />
+        <item
+            android:id="@+id/nav_requests"
+            android:icon="@drawable/ic_action_name7"
+            android:title="Friendship Requests" />
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_action_name6"
+            android:title="To Call"/>
+       <!-- <item
+            android:id="@+id/nav_satellite"
+            android:icon="@drawable/ic_action_name2"
+            android:title="Satellite" />
+        <item
+            android:id="@+id/nav_terrain"
+            android:icon="@drawable/ic_action_name1"
+            android:title="Terrain" />-->
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_action_name5"
+            android:title="Log out"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_action_name4"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_action_name3"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

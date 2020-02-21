@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "985409981647",
+    "firebase_url": "https://where-r-u-msu-poly.firebaseio.com",
+    "project_id": "where-r-u-msu-poly",
+    "storage_bucket": "where-r-u-msu-poly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985409981647:android:1bda70b090abee9a",
+        "android_client_info": {
+          "package_name": "com.example.whereru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985409981647-gc8aroekebn2nhn900056roe2nhkrvqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPJBZgVCfQ2flYA6A1U8vm3DoIiBmaoxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
